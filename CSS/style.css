@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14pt;
+  border: 1px solid transparent;
+}
+
+h1, h2, h3, h4 {
+  padding: 0px 0px;
+  font-family: 'Amatic SC', cursive;
+}
+
+header .lips {
+  width: 115px;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4.0em;
+  color: white;
+}
+
+/*changing screen size makes headertitle out of place*/
+.headertitle {
+    padding: 5vh;
+}
+
+
+
+.small {
+  font-family: 'Nova Mono', monospace;
+  font-size: 1.75em;
+  transition: .5s ease;
+  color: white;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 3.0em;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.0em;
+}
+
+p {
+  padding: 5px 5px;
+  font-size: 14pt;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14pt;
+  color: rgb(199, 225, 239);
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+section {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+}
+
+.flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.right {
+  text-align:right;
+}
+
+.believe {
+  background-color: lightgray;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.square-image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 70px;
+  padding: 35% 0%;
+  margin: 13px;
+}
+
+.love {
+    background-color: lightgray;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1%;
+  }
+
+.love-content p{
+  font-size:20pt;
+}
+
+.love-images {
+  border-radius: 50%;
+  /* position: relative; */
+  padding: 0px;
+  /* width: 100px; */
+  /* display: block; */
+  height: 25vw;
+  width: 75%;
+}
+
+/*header*/
+header nav {
+  text-align: right;
+  position: relative;
+  right: 0px;
+}
+
+header .logo {
+  max-height: 90px;
+}
+
+header a{
+  padding: 20px 15px;
+  color: white;
+  font-size: 18pt;
+  font-family: 'Amatic SC', cursive;
+}
+
+header a:hover {
+  color: pink;
+}
+
+.middletext{
+  text-align: center;
+  padding: 20px 15px;
+  color: white;
+  background:
+  font-size: 1.5rem;
+}
+
+
+.top-banner{
+  float: left;
+}
+
+.top-banner-content {
+  margin: 5px;
+  text-align: center;
+  background-image: url("/images/rockpawprint.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 75vh;
+}
+
+.tbtext {
+  margin-top: 28vh;
+  color: white;
+}
+
+.tbtext2 {
+  color: white;
+}
+
+.btn {
+  padding: 4px 9px;
+  margin: 5px;
+  font-size: 14pt;
+  color: black;
+  border: 1px solid gray;
+  background-color: #bbddee;
+  /* outline-color: black; */
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn:hover {
+  border: 2px solid #bbddee;
+  background-color: lightblue;
+}
+
+img.lipsbutton {
+  width: 30px;
+  vertical-align: bottom;
+}
+
+.ready {
+  background-color: lightgray;
+  color: black;
+  padding: 0px 35px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.ready-picture {
+  background-image: url("/images/ellaquestion.jpg");
+  background-color: lightgrey;
+  border-radius: 70px;
+  background-size: cover;
+  background-position: center;
+}
+
+form.move {
+  background-color: pink;
+  padding: 2%;
+  border-radius: 70px;
+  width: 27%;
+  margin: 35vw 0vw 2vh 2vw;
+}
+
+.banner {
+  background-image: url(http://www.themesltd.com/headers2/little_happy_bananas.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 60vh;
+  padding: 0px;
+}
+/* not using for now */
+.banner-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20vh 10vw;
+}
+
+/*footer*/
+
+footer {
+  background-color: lightgray;
+  color: black;
+  padding: 0px 35px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+footer .logo {
+  width: 125px;
+}
+
+footer .footer-text p {
+  font-size: 0.8em;
+}
+
+footer a {
+  color: black;
+  margin: 15px;
+}
+
+footer .col-4_last {
+}
+
+footer .footer-links i {
+  font-size: 50px;
+  margin: 10% 10px;
+}
+
+footer .footer-copyright {
+  padding-bottom: 0px;
+}
+
+/* index page specifics   */
